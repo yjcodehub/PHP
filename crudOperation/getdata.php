@@ -5,7 +5,7 @@
 		$con  = new mysqli("localhost", "root", "", "reg_10am");
 
 		/*Write Query*/
-		$query = "INSERT INTO users VALUES(NULL, '$fname', '$uemail', '$upassword', '$umobile')";
+		$query = "INSERT INTO users VALUES(NULL, '$fname', '$uemail', '$upassword', '$umobile',1)";
 
 		/*Execute the query*/
 		$result = $con->query($query);
