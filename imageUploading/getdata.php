@@ -14,7 +14,7 @@
 
 	if (move_uploaded_file($img_tmp_name, $destination)){
 		if ($con->query($query)) {
-			header('localtion:view.php');
+			header('location:view.php');
 		}
 		else{
 			echo "Your file uploaded but not submitted";

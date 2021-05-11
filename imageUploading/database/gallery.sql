@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 08, 2021 at 07:36 AM
+-- Generation Time: May 11, 2021 at 08:09 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -37,7 +37,11 @@ CREATE TABLE `gallery` (
 --
 
 INSERT INTO `gallery` (`galleryId`, `galleryName`) VALUES
-(1, 'frame1.jpg');
+(1, 'frame1.jpg'),
+(2, 'apple1.jpg'),
+(3, 'bike2.jpg'),
+(4, 'car1.jpg'),
+(5, 'fire.png');
 
 --
 -- Indexes for dumped tables
@@ -57,7 +61,7 @@ ALTER TABLE `gallery`
 -- AUTO_INCREMENT for table `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `galleryId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `galleryId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
