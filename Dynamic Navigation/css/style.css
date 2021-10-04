@@ -1,0 +1,20 @@
+*{font-family: raleway}
+.navbar.bg-dark{background:linear-gradient(to left,#2fa5b9,#312171);border-bottom: 5px solid transparent;border-image: linear-gradient(to left, #f7223d,#f725bb);border-image-slice: 1;}
+.navbar ul li{}
+.navbar ul li a{color: #000!important;border-bottom: 2px solid transparent;}
+.navbar ul li a:hover{}
+
+.banner{margin-top: 3.45rem!important;}
+.banner .card{border: 0!important;}
+.banner .card img{border-radius: 0!important;filter: blur(5px);}
+.banner .card .card-img-overlay{filter: blur(0px);z-index: 10;background: rgba(0,0,0,0.3);}
+.banner .card .card-img-overlay .fas{font-size: 4em; color: orange; }
+.banner .card .card-img-overlay p{padding: 0 15em}
+
+section.insurance{background-color: #000 !important; padding: 2em 0 4em!important}
+section.insurance .card .icon{width: 5em;height: 5em;background-color: #f1c50e;}
+section.insurance .card p{font-size: 14px;}
+
+section.finding{background-color: #000 !important; padding: 2em 0 4em!important}
+section.finding .col-md-6.pt-5{padding: 6.2em 1em 3em!important;color: #000!important}
+section.finding .img-fluid{width: 100%!important;height: 250px;}

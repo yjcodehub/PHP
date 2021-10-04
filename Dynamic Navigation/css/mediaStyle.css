@@ -1,0 +1,7 @@
+.navbar .navbar-nav .active{background-color: #000!important; color: #fff!important;border-radius:3px;}
+@media screen and (max-width: 991.98px){
+	.banner .card .card-img-overlay p{padding: 0 7em !important}
+}
+@media screen and (max-width: 767.98px){
+	.banner .card .card-img-overlay p{padding:0 !important}
+}
